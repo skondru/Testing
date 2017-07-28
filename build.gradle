@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.7
+
+dependencies {
+    testCompile 'junit:junit:4.12',
+        'info.cukes:cucumber-junit:1.2.2',
+        'info.cukes:cucumber-java:1.2.2',
+        'org.seleniumhq.selenium:selenium-java:2.53.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+ 
